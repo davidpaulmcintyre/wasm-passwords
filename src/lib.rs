@@ -48,7 +48,7 @@ pub fn get_password() -> String {
 }
 
 #[wasm_bindgen]
-pub fn get_rotated_password() -> String  {
+pub fn get_rotated_password() -> String  { 
     let now = Utc::now();
     let min = now.minute() as usize; 
     let index = min % 10;
