@@ -56,7 +56,7 @@ wasm-pack test --headless --firefox
 ### 🎁 Publish to NPM with `wasm-pack publish`
 
 ```
-wasm-pack publish
+wasm-pack publish 
 ```
 
 ## 🔋 Batteries Included
