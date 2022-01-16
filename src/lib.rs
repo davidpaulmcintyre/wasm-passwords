@@ -44,7 +44,7 @@ pub fn get_password() -> String {
         str_bytes[2 * i + 1] = trailing;
     }
 
-    unsafe { String::from_utf8_unchecked(str_bytes) }
+    unsafe { String::from_utf8_unchecked(str_bytes) } 
 }
 
 #[wasm_bindgen]
