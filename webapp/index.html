@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Passwords</title>
+  </head>
+  <body>    
+    <noscript>This page contains webassembly and javascript content, please enable javascript in your browser.</noscript>
+    <script src="./bootstrap.js"></script>
+    <button onclick="handlePassword()">Get Password</button>
+    <button onclick="handleRotatedPassword()">Get Rotated Password</button>
+    <script>
+      function handlePassword(){
+        var password = window.getPassword();
+        console.log(password) 
+      }
+
+
+      function handleRotatedPassword(){
+        var password = window.getRotatedPassword();
+        console.log(password)
+      }
+    </script>
+  </body>
+</html>
