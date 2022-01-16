@@ -45,7 +45,7 @@ pub fn get_password() -> String {
     }
 
     unsafe { String::from_utf8_unchecked(str_bytes) } 
-}
+} 
 
 #[wasm_bindgen]
 pub fn get_rotated_password() -> String  { 

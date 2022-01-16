@@ -47,7 +47,7 @@ cd my-project
 wasm-pack build
 ```
 
-### 🔬 Test in Headless Browsers with `wasm-pack test`
+### 🔬 Test in Headless Browsers with `wasm-pack test` 
 
 ```
 wasm-pack test --headless --firefox
